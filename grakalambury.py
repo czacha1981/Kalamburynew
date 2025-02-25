@@ -34,7 +34,7 @@ obrazek, emoji = random.choice(list(kategorie.items()))
 st.markdown(f"### {emoji} {obrazek}")
 
 # Przyciski do wyboru reakcji
-wybrana_reakcja = st.radio("Jak zareagujesz?", reak cje)
+wybrana_reakcja = st.radio("Jak zareagujesz?", reakcje)
 
 # Po wybraniu reakcji wyświetlamy humorystyczny komunikat
 if st.button("Zatwierdź wybór"):
